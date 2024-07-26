@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 50vh;
+  width: 30vh;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 15px;
+  font-family: "poppins";
+}
+
+.container:hover {
+  box-shadow: 1px 1px 20px blue;
+  cursor: pointer;
+}
+.adicart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+#adidas {
+  height: 25px;
+}
+#shoes {
+  display: flex;
+  justify-content: center;
+}
+#shoes img {
+  width: 25vh;
+  margin-left: 1vw 0;
+  /* height: 15vh; */
+}
+.container h4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.3vw;
+}
+.container p {
+  font-size: 10px;
+  margin: 0 10px;
+  text-align: justify;
+}
+.star {
+  margin-left: 10px;
+  padding: 2px;
+  font-size: 0.8em;
+}
+#star1:hover {
+  font-size: 1.2em;
+}
+#star2:hover {
+  font-size: 1.2em;
+}
+
+#star3:hover {
+  font-size: 1.2em;
+}
+
+#star4:hover {
+  font-size: 1.2em;
+}
+
+#star5:hover {
+  font-size: 1.2em;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color h4 i {
+  margin: 0.1em;
+  font-size: 1.2em;
+  padding: 0px;
+  text-align: center;
+}
+.color h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+  margin: 0.7em;
+}
+
+#color1 {
+  color: rgb(28, 151, 151);
+  margin-left: 0.3em;
+}
+#color1:hover {
+  border: 1px solid rgb(28, 151, 151);
+  border-radius: 50%;
+}
+#color2 {
+  color: rgb(228, 16, 143);
+  border-radius: 50%;
+}
+#color2:hover {
+  border: 1px solid rgb(228, 16, 143);
+}
+#color3 {
+  color: rgb(230, 205, 46);
+  border-radius: 50%;
+}
+#color3:hover {
+  border: 1px solid rgb(230, 205, 46);
+}
+.color h3 {
+  font-size: 0.8em;
+  margin-right: 10px;
+  margin: 1.5em 0em;
+  padding-right: 1em;
+}
+.color h3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  margin: 0em;
+}
+
+.container button {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  height: 5vh;
+  width: 10em;
+  font-weight: bold;
+  font-size: 1em;
+  background-image: linear-gradient(
+    to right,
+    rgb(13, 198, 219),
+    rgb(218, 0, 196)
+  );
+}
+.container button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-image: linear-gradient(to right, red, blue);
+}
